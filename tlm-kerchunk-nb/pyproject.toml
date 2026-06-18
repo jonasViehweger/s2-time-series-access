@@ -1,0 +1,15 @@
+[project]
+name = "tlm-kerchunk-nb"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dask>=2026.6.0",
+    "ipykernel>=7.3.0",
+    "jp2io[zarr]",
+]
+
+
+[tool.uv.sources]
+jp2io = { git = "https://github.com/Kayrros/sentinel-2-jp2-tlm", subdirectory = "jp2io", rev = "main" }

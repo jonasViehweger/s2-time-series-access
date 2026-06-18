@@ -1,0 +1,15 @@
+[project]
+name = "sh-nb"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dask>=2026.6.0",
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.0",
+    "pystac-client>=0.9.0",
+    "sentinelhub>=3.11.5",
+    "xarray>=2026.4.0",
+    "zarr>=3.2.1",
+]

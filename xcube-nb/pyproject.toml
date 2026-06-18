@@ -1,0 +1,17 @@
+[project]
+authors = [{name = "JonasViehweger", email = "jonas.viehweger@joanneum.at"}]
+dependencies = []
+name = "xcube-nb"
+requires-python = ">= 3.11"
+version = "0.1.0"
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["win-64"]
+
+[tool.pixi.tasks]
+
+[tool.pixi.dependencies]
+ipykernel = ">=7.2.0,<8"
+xcube = ">=1.13.1,<2"
+xcube-stac = "==1.3.1"
