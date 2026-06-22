@@ -9,4 +9,5 @@ dependencies = [
     "matplotlib>=3.11.0",
     "netcdf4>=1.7.4",
     "openeo>=0.50.0",
+    "zarr>=3.2.1",
 ]

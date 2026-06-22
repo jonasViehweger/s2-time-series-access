@@ -7,9 +7,15 @@ requires-python = ">=3.12"
 dependencies = [
     "dask>=2026.6.0",
     "ipykernel>=7.3.0",
-    "jp2io[zarr]",
+    "jp2io[stac]",
+    "matplotlib>=3.8",
+    "pyproj>=3.6",
+    "shapely>=2.1.2",
 ]
 
 
 [tool.uv.sources]
-jp2io = { git = "https://github.com/Kayrros/sentinel-2-jp2-tlm", subdirectory = "jp2io", rev = "main" }
+# Local checkout while the STAC feature is unreleased; swap back to the git source
+# once it lands on main:
+# jp2io = { git = "https://github.com/Kayrros/sentinel-2-jp2-tlm", subdirectory = "jp2io", rev = "main" }
+jp2io = { path = "../../sentinel-2-jp2-tlm/jp2io", editable = true }
