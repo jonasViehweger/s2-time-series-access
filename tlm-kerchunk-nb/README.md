@@ -18,7 +18,3 @@ uv sync
 ```
 
 Then open `index.ipynb`.
-
-> The `jp2io` dependency points at a local checkout (`../../sentinel-2-jp2-tlm/jp2io`)
-> while the `[stac]` feature is unreleased; switch back to the git source in
-> `pyproject.toml` once it lands on `main`.

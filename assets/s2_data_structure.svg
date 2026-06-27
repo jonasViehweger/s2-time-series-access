@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1000 400"
+   width="1000"
+   height="400"
+   version="1.1"
+   id="svg73"
+   sodipodi:docname="sentinel2_cog_structure.svg"
+   inkscape:version="1.4.4 (1:1.4.4+202605061436+dcaf3e7d9e)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview73"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.3875"
+     inkscape:cx="552.43243"
+     inkscape:cy="292.25225"
+     inkscape:window-width="2498"
+     inkscape:window-height="1371"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg73" />
+  <defs
+     id="defs4">
+    <linearGradient
+       id="gTeal"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#7FB5CC"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#2A6F8E"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="gAcc"
+       x1="164.12001"
+       y1="239.12001"
+       x2="265.87"
+       y2="340.87"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-41.801802,-70.630631)">
+      <stop
+         offset="0"
+         stop-color="#F2B470"
+         id="stop3" />
+      <stop
+         offset="1"
+         stop-color="#E08A33"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#gTeal"
+       id="linearGradient73"
+       x1="924.25"
+       y1="149.25"
+       x2="1065.75"
+       y2="290.75"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-238.41441,-70.630631)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#gTeal"
+       id="linearGradient74"
+       x1="1064.25"
+       y1="149.25"
+       x2="1205.75"
+       y2="290.75"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-238.41441,-70.630631)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#gTeal"
+       id="linearGradient75"
+       x1="924.25"
+       y1="289.25"
+       x2="1065.75"
+       y2="430.75"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-238.41441,-70.630631)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#gTeal"
+       id="linearGradient76"
+       x1="1064.25"
+       y1="289.25"
+       x2="1205.75"
+       y2="430.75"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-238.41441,-70.630631)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#gTeal"
+       id="linearGradient77"
+       x1="499"
+       y1="149"
+       x2="781"
+       y2="431"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-136.21622,-70.630631)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#gTeal"
+       id="linearGradient78"
+       x1="74.449997"
+       y1="149.45"
+       x2="174.89999"
+       y2="249.89999"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-41.801802,-70.630631)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#gTeal"
+       id="linearGradient79"
+       x1="164.77"
+       y1="149.45"
+       x2="265.22"
+       y2="249.89999"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-41.801802,-70.630631)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#gTeal"
+       id="linearGradient80"
+       x1="255.09999"
+       y1="149.45"
+       x2="355.54999"
+       y2="249.89999"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-41.801802,-70.630631)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#gTeal"
+       id="linearGradient81"
+       x1="74.449997"
+       y1="239.77"
+       x2="174.89999"
+       y2="340.22"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-41.801802,-70.630631)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#gTeal"
+       id="linearGradient82"
+       x1="255.09999"
+       y1="239.77"
+       x2="355.54999"
+       y2="340.22"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-41.801802,-70.630631)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#gTeal"
+       id="linearGradient83"
+       x1="74.449997"
+       y1="330.09998"
+       x2="174.89999"
+       y2="430.54999"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-41.801802,-70.630631)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#gTeal"
+       id="linearGradient84"
+       x1="164.77"
+       y1="330.09998"
+       x2="265.22"
+       y2="430.54999"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-41.801802,-70.630631)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#gTeal"
+       id="linearGradient85"
+       x1="255.09999"
+       y1="330.09998"
+       x2="355.54999"
+       y2="430.54999"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-41.801802,-70.630631)" />
+  </defs>
+  <rect
+     style="fill:#ffffff;stroke-width:3.77953"
+     id="rect1"
+     width="1000.3604"
+     height="399.27927"
+     x="-0.72072071"
+     y="0" />
+  <text
+     x="33.198196"
+     y="47.36937"
+     font-size="22px"
+     fill="#e08a33"
+     font-weight="800"
+     text-anchor="start"
+     letter-spacing="0"
+     font-family="'-apple-system', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+     id="text6">1</text>
+  <text
+     x="57.1982"
+     y="41.36937"
+     font-size="15.5px"
+     fill="#1e2d36"
+     font-weight="700"
+     text-anchor="start"
+     letter-spacing="0"
+     font-family="'-apple-system', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+     id="text7">MGRS Tile Grid</text>
+  <text
+     x="57.1982"
+     y="61.36937"
+     font-size="11.5px"
+     fill="#5c6e78"
+     font-weight="normal"
+     text-anchor="start"
+     letter-spacing="0"
+     font-family="'-apple-system', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+     id="text8">~ 110 × 110 km · 10 m px · 10 km overlap</text>
+  <text
+     x="363.78375"
+     y="47.36937"
+     font-size="22px"
+     fill="#e08a33"
+     font-weight="800"
+     text-anchor="start"
+     letter-spacing="0"
+     font-family="'-apple-system', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+     id="text9">2</text>
+  <text
+     x="387.78375"
+     y="41.36937"
+     font-size="15.5px"
+     fill="#1e2d36"
+     font-weight="700"
+     text-anchor="start"
+     letter-spacing="0"
+     font-family="'-apple-system', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+     id="text10">Internal Block Tiling</text>
+  <text
+     x="387.78375"
+     y="61.36937"
+     font-size="11.5px"
+     fill="#5c6e78"
+     font-weight="normal"
+     text-anchor="start"
+     letter-spacing="0"
+     font-family="'-apple-system', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+     id="text11">1024 × 1024 px blocks</text>
+  <text
+     x="686.58563"
+     y="47.36937"
+     font-size="22px"
+     fill="#e08a33"
+     font-weight="800"
+     text-anchor="start"
+     letter-spacing="0"
+     font-family="'-apple-system', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+     id="text12">3</text>
+  <text
+     x="710.58563"
+     y="41.36937"
+     font-size="15.5px"
+     fill="#1e2d36"
+     font-weight="700"
+     text-anchor="start"
+     letter-spacing="0"
+     font-family="'-apple-system', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+     id="text13">AOI Read Footprint</text>
+  <text
+     x="710.58563"
+     y="61.36937"
+     font-size="11.5px"
+     fill="#5c6e78"
+     font-weight="normal"
+     text-anchor="start"
+     letter-spacing="0"
+     font-family="'-apple-system', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+     id="text14">10 × 10 km AOI · intersects 4 blocks</text>
+  <rect
+     x="33.198196"
+     y="79.36937"
+     width="99.349998"
+     height="99.349998"
+     fill="url(#gTeal)"
+     fill-opacity="0.42"
+     stroke="#2a6f8e"
+     stroke-width="1.1"
+     stroke-opacity="1"
+     rx="0"
+     id="rect14"
+     style="fill:url(#linearGradient78)" />
+  <rect
+     x="123.5182"
+     y="79.36937"
+     width="99.349998"
+     height="99.349998"
+     fill="url(#gTeal)"
+     fill-opacity="0.42"
+     stroke="#2a6f8e"
+     stroke-width="1.1"
+     stroke-opacity="1"
+     rx="0"
+     id="rect15"
+     style="fill:url(#linearGradient79)" />
+  <rect
+     x="213.84819"
+     y="79.36937"
+     width="99.349998"
+     height="99.349998"
+     fill="url(#gTeal)"
+     fill-opacity="0.42"
+     stroke="#2a6f8e"
+     stroke-width="1.1"
+     stroke-opacity="1"
+     rx="0"
+     id="rect16"
+     style="fill:url(#linearGradient80)" />
+  <rect
+     x="33.198196"
+     y="169.68938"
+     width="99.349998"
+     height="99.349998"
+     fill="url(#gTeal)"
+     fill-opacity="0.42"
+     stroke="#2a6f8e"
+     stroke-width="1.1"
+     stroke-opacity="1"
+     rx="0"
+     id="rect17"
+     style="fill:url(#linearGradient81)" />
+  <rect
+     x="213.84819"
+     y="169.68938"
+     width="99.349998"
+     height="99.349998"
+     fill="url(#gTeal)"
+     fill-opacity="0.42"
+     stroke="#2a6f8e"
+     stroke-width="1.1"
+     stroke-opacity="1"
+     rx="0"
+     id="rect18"
+     style="fill:url(#linearGradient82)" />
+  <rect
+     x="33.198196"
+     y="260.01935"
+     width="99.349998"
+     height="99.349998"
+     fill="url(#gTeal)"
+     fill-opacity="0.42"
+     stroke="#2a6f8e"
+     stroke-width="1.1"
+     stroke-opacity="1"
+     rx="0"
+     id="rect19"
+     style="fill:url(#linearGradient83)" />
+  <rect
+     x="123.5182"
+     y="260.01935"
+     width="99.349998"
+     height="99.349998"
+     fill="url(#gTeal)"
+     fill-opacity="0.42"
+     stroke="#2a6f8e"
+     stroke-width="1.1"
+     stroke-opacity="1"
+     rx="0"
+     id="rect20"
+     style="fill:url(#linearGradient84)" />
+  <rect
+     x="213.84819"
+     y="260.01935"
+     width="99.349998"
+     height="99.349998"
+     fill="url(#gTeal)"
+     fill-opacity="0.42"
+     stroke="#2a6f8e"
+     stroke-width="1.1"
+     stroke-opacity="1"
+     rx="0"
+     id="rect21"
+     style="fill:url(#linearGradient85)" />
+  <rect
+     x="123.5182"
+     y="169.68938"
+     width="99.349998"
+     height="99.349998"
+     fill="url(#gAcc)"
+     fill-opacity="0.55"
+     stroke="#e08a33"
+     stroke-width="2.4"
+     stroke-opacity="1"
+     rx="0"
+     id="rect22"
+     style="fill:url(#gAcc)" />
+  <rect
+     x="213.84819"
+     y="169.68938"
+     width="9.0299997"
+     height="99.349998"
+     fill="#d6442e"
+     fill-opacity="0.32"
+     stroke="none"
+     stroke-width="1"
+     stroke-opacity="1"
+     rx="0"
+     id="rect23" />
+  <text
+     x="218.3582"
+     y="73.36937"
+     font-size="9.5px"
+     fill="#d6442e"
+     font-weight="700"
+     text-anchor="middle"
+     letter-spacing="0"
+     font-family="'-apple-system', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+     id="text23">10 km overlap</text>
+  <line
+     x1="218.3582"
+     y1="77.36937"
+     x2="218.3582"
+     y2="169.68938"
+     stroke="#d6442e"
+     stroke-width="0.8"
+     stroke-opacity="1"
+     stroke-dasharray="2, 2"
+     id="line23" />
+  <text
+     x="173.1982"
+     y="215.36937"
+     font-size="11px"
+     fill="#1e2d36"
+     font-weight="700"
+     text-anchor="middle"
+     letter-spacing="0"
+     font-family="'-apple-system', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+     id="text24">~ 110 × 110 km</text>
+  <text
+     x="215"
+     y="301"
+     font-size="9.5px"
+     fill="#5c6e78"
+     font-weight="400"
+     text-anchor="middle"
+     letter-spacing="0"
+     font-family="'-apple-system', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+     id="text25" />
+  <rect
+     x="363.78375"
+     y="79.36937"
+     width="280"
+     height="280"
+     fill="url(#gTeal)"
+     fill-opacity="0.3"
+     stroke="#2a6f8e"
+     stroke-width="2"
+     stroke-opacity="1"
+     rx="0"
+     id="rect26"
+     style="fill:url(#linearGradient77)" />
+  <line
+     x1="363.78375"
+     y1="79.36937"
+     x2="363.78375"
+     y2="359.36935"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line26" />
+  <line
+     x1="363.78375"
+     y1="79.36937"
+     x2="643.78381"
+     y2="79.36937"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line27" />
+  <line
+     x1="389.89374"
+     y1="79.36937"
+     x2="389.89374"
+     y2="359.36935"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line28" />
+  <line
+     x1="363.78375"
+     y1="105.47937"
+     x2="643.78381"
+     y2="105.47937"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line29" />
+  <line
+     x1="416.01373"
+     y1="79.36937"
+     x2="416.01373"
+     y2="359.36935"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line30" />
+  <line
+     x1="363.78375"
+     y1="131.59937"
+     x2="643.78381"
+     y2="131.59937"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line31" />
+  <line
+     x1="442.12378"
+     y1="79.36937"
+     x2="442.12378"
+     y2="359.36935"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line32" />
+  <line
+     x1="363.78375"
+     y1="157.70937"
+     x2="643.78381"
+     y2="157.70937"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line33" />
+  <line
+     x1="468.23376"
+     y1="79.36937"
+     x2="468.23376"
+     y2="359.36935"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line34" />
+  <line
+     x1="363.78375"
+     y1="183.81937"
+     x2="643.78381"
+     y2="183.81937"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line35" />
+  <line
+     x1="494.34375"
+     y1="79.36937"
+     x2="494.34375"
+     y2="359.36935"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line36" />
+  <line
+     x1="363.78375"
+     y1="209.92937"
+     x2="643.78381"
+     y2="209.92937"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line37" />
+  <line
+     x1="520.46375"
+     y1="79.36937"
+     x2="520.46375"
+     y2="359.36935"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line38" />
+  <line
+     x1="363.78375"
+     y1="236.04936"
+     x2="643.78381"
+     y2="236.04936"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line39" />
+  <line
+     x1="546.57379"
+     y1="79.36937"
+     x2="546.57379"
+     y2="359.36935"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line40" />
+  <line
+     x1="363.78375"
+     y1="262.15936"
+     x2="643.78381"
+     y2="262.15936"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line41" />
+  <line
+     x1="572.68384"
+     y1="79.36937"
+     x2="572.68384"
+     y2="359.36935"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line42" />
+  <line
+     x1="363.78375"
+     y1="288.26935"
+     x2="643.78381"
+     y2="288.26935"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line43" />
+  <line
+     x1="598.80383"
+     y1="79.36937"
+     x2="598.80383"
+     y2="359.36935"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line44" />
+  <line
+     x1="363.78375"
+     y1="314.38934"
+     x2="643.78381"
+     y2="314.38934"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line45" />
+  <line
+     x1="624.91382"
+     y1="79.36937"
+     x2="624.91382"
+     y2="359.36935"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line46" />
+  <line
+     x1="363.78375"
+     y1="340.49936"
+     x2="643.78381"
+     y2="340.49936"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line47" />
+  <line
+     x1="643.78381"
+     y1="79.36937"
+     x2="643.78381"
+     y2="359.36935"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line48" />
+  <line
+     x1="363.78375"
+     y1="359.36935"
+     x2="643.78381"
+     y2="359.36935"
+     stroke="#3d5c6b"
+     stroke-width="0.7"
+     stroke-opacity="0.55"
+     id="line49" />
+  <rect
+     x="468.23376"
+     y="183.81937"
+     width="52.23"
+     height="52.23"
+     fill="#e08a33"
+     fill-opacity="0.3"
+     stroke="#e08a33"
+     stroke-width="1.8"
+     stroke-opacity="1"
+     rx="0"
+     id="rect49" />
+  <rect
+     x="481.59375"
+     y="197.17937"
+     width="25.5"
+     height="25.5"
+     fill="none"
+     fill-opacity="1"
+     stroke="#d6442e"
+     stroke-width="2"
+     stroke-opacity="1"
+     rx="0"
+     id="rect50" />
+  <rect
+     x="624.91382"
+     y="79.36937"
+     width="18.870001"
+     height="280"
+     fill="#1e2d36"
+     fill-opacity="0.06"
+     stroke="none"
+     stroke-width="1"
+     stroke-opacity="1"
+     rx="0"
+     id="rect51" />
+  <rect
+     x="363.78375"
+     y="340.49936"
+     width="280"
+     height="18.870001"
+     fill="#1e2d36"
+     fill-opacity="0.06"
+     stroke="none"
+     stroke-width="1"
+     stroke-opacity="1"
+     rx="0"
+     id="rect52" />
+  <text
+     x="473.50565"
+     y="102.54113"
+     font-size="7.23083px"
+     fill="#5c6e78"
+     font-weight="600"
+     text-anchor="middle"
+     letter-spacing="0"
+     font-family="'-apple-system', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+     id="text53"
+     transform="scale(0.85068583,1.1755221)"
+     style="stroke-width:0.850686">1024 px</text>
+  <rect
+     x="389.89374"
+     y="105.47937"
+     width="26.110001"
+     height="26.110001"
+     fill="none"
+     fill-opacity="1"
+     stroke="#3d5c6b"
+     stroke-width="1.2"
+     stroke-opacity="1"
+     rx="0"
+     id="rect54" />
+  <rect
+     x="686.58563"
+     y="79.36937"
+     width="140"
+     height="140"
+     fill="url(#gTeal)"
+     fill-opacity="0.28"
+     stroke="#2a6f8e"
+     stroke-width="1.5"
+     stroke-opacity="1"
+     rx="0"
+     id="rect55"
+     style="fill:url(#linearGradient73)" />
+  <rect
+     x="826.58563"
+     y="79.36937"
+     width="140"
+     height="140"
+     fill="url(#gTeal)"
+     fill-opacity="0.28"
+     stroke="#2a6f8e"
+     stroke-width="1.5"
+     stroke-opacity="1"
+     rx="0"
+     id="rect56"
+     style="fill:url(#linearGradient74)" />
+  <rect
+     x="686.58563"
+     y="219.36937"
+     width="140"
+     height="140"
+     fill="url(#gTeal)"
+     fill-opacity="0.28"
+     stroke="#2a6f8e"
+     stroke-width="1.5"
+     stroke-opacity="1"
+     rx="0"
+     id="rect57"
+     style="fill:url(#linearGradient75)" />
+  <rect
+     x="826.58563"
+     y="219.36937"
+     width="140"
+     height="140"
+     fill="url(#gTeal)"
+     fill-opacity="0.28"
+     stroke="#2a6f8e"
+     stroke-width="1.5"
+     stroke-opacity="1"
+     rx="0"
+     id="rect58"
+     style="fill:url(#linearGradient76)" />
+  <line
+     x1="826.58563"
+     y1="79.36937"
+     x2="826.58563"
+     y2="359.36935"
+     stroke="#2a6f8e"
+     stroke-width="2.2"
+     stroke-opacity="1"
+     id="line58" />
+  <line
+     x1="686.58563"
+     y1="219.36937"
+     x2="966.58563"
+     y2="219.36937"
+     stroke="#2a6f8e"
+     stroke-width="2.2"
+     stroke-opacity="1"
+     id="line59" />
+  <rect
+     x="686.58563"
+     y="79.36937"
+     width="280"
+     height="280"
+     fill="none"
+     fill-opacity="1"
+     stroke="#2a6f8e"
+     stroke-width="2"
+     stroke-opacity="1"
+     rx="0"
+     id="rect59" />
+  <rect
+     x="758.22565"
+     y="151.00937"
+     width="136.72"
+     height="136.72"
+     fill="#d6442e"
+     fill-opacity="0.16"
+     stroke="#d6442e"
+     stroke-width="2.6"
+     stroke-opacity="1"
+     rx="0"
+     id="rect60" />
+  <circle
+     cx="826.58563"
+     cy="219.36937"
+     r="3.4000001"
+     fill="#2a6f8e"
+     id="circle60" />
+  <text
+     x="694.58563"
+     y="94.36937"
+     font-size="9px"
+     fill="#5c6e78"
+     font-weight="600"
+     text-anchor="start"
+     letter-spacing="0"
+     font-family="'-apple-system', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+     id="text60">0,0</text>
+  <text
+     x="958.58563"
+     y="94.36937"
+     font-size="9px"
+     fill="#5c6e78"
+     font-weight="600"
+     text-anchor="end"
+     letter-spacing="0"
+     font-family="'-apple-system', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+     id="text61">0,1</text>
+  <text
+     x="694.58563"
+     y="352.36935"
+     font-size="9px"
+     fill="#5c6e78"
+     font-weight="600"
+     text-anchor="start"
+     letter-spacing="0"
+     font-family="'-apple-system', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+     id="text62">1,0</text>
+  <text
+     x="958.58563"
+     y="352.36935"
+     font-size="9px"
+     fill="#5c6e78"
+     font-weight="600"
+     text-anchor="end"
+     letter-spacing="0"
+     font-family="'-apple-system', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+     id="text63">1,1</text>
+  <text
+     x="826.58563"
+     y="75.36937"
+     font-size="11px"
+     fill="#d6442e"
+     font-weight="700"
+     text-anchor="middle"
+     letter-spacing="0"
+     font-family="'-apple-system', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+     id="text64">10 × 10 km AOI</text>
+  <line
+     x1="222.85463"
+     y1="169.6637"
+     x2="363.08661"
+     y2="79.296997"
+     stroke="#a9bbc4"
+     stroke-width="1.1"
+     stroke-opacity="1"
+     stroke-dasharray="5, 4"
+     id="line66" />
+  <line
+     x1="222.85463"
+     y1="269.07504"
+     x2="363.08661"
+     y2="359.44174"
+     stroke="#a9bbc4"
+     stroke-width="1.1"
+     stroke-opacity="1"
+     stroke-dasharray="5, 4"
+     id="line67" />
+  <line
+     x1="520.41058"
+     y1="183.83598"
+     x2="686.43951"
+     y2="80.756256"
+     stroke="#a9bbc4"
+     stroke-width="0.99028"
+     stroke-opacity="1"
+     stroke-dasharray="5, 4"
+     id="line68" />
+  <line
+     x1="520.4057"
+     y1="236.02971"
+     x2="685.85413"
+     y2="358.70535"
+     stroke="#a9bbc4"
+     stroke-width="0.99028"
+     stroke-opacity="1"
+     stroke-dasharray="5, 4"
+     id="line69" />
+</svg>

@@ -17,5 +17,4 @@ dependencies = [
 [tool.uv.sources]
 # Local checkout while the STAC feature is unreleased; swap back to the git source
 # once it lands on main:
-# jp2io = { git = "https://github.com/Kayrros/sentinel-2-jp2-tlm", subdirectory = "jp2io", rev = "main" }
-jp2io = { path = "../../sentinel-2-jp2-tlm/jp2io", editable = true }
+jp2io = { git = "https://github.com/jonasViehweger/sentinel-2-jp2-tlm", subdirectory = "jp2io", branch = "feat/eopf-main" }
