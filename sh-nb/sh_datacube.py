@@ -131,14 +131,16 @@ def _query_timestamps(
     data_collection: DataCollection,
     bbox: BBox,
     time: tuple,
-    max_cloud_cover: float | None,
+    query_filter: str | dict | None,
+    filter_lang: str,
 ) -> list[dt.date]:
     """Return the sorted, de-duplicated solar (UTC) days that have data."""
     search = catalog.search(
         data_collection,
         bbox=bbox,
         time=time,
-        filter=f"eo:cloud_cover < {max_cloud_cover}" if max_cloud_cover is not None else None,
+        filter=query_filter,
+        filter_lang=filter_lang,
         fields={"include": ["properties.datetime"], "exclude": []},
     )
     days = {
@@ -210,7 +212,8 @@ def load(
     time: tuple,
     resolution: float | tuple[float, float] | None = None,
     size: tuple[int, int] | None = None,
-    max_cloud_cover: float | None = None,
+    filter: str | dict | None = None,  # noqa: A002 - matches SH Catalog API naming
+    filter_lang: str = "cql2-text",
     config: SHConfig | None = None,
     catalog: SentinelHubCatalog | None = None,
 ) -> xr.DataArray:
@@ -227,7 +230,11 @@ def load(
         ``size``.
     :param size: ``(width, height)`` in pixels. Mutually exclusive with
         ``resolution``.
-    :param max_cloud_cover: Optional ``eo:cloud_cover`` upper bound (percent).
+    :param filter: Optional CQL2 filter passed straight to the SH Catalog
+        search, e.g. ``"eo:cloud_cover < 80"`` (cql2-text) or the equivalent
+        cql2-json dict. Any item property the collection exposes can be used.
+    :param filter_lang: ``"cql2-text"`` (default) or ``"cql2-json"``, matching
+        how ``filter`` is written.
     :param config: ``SHConfig`` with credentials / service URL. Required for
         anything but the default deployment.
     :param catalog: Optional pre-built ``SentinelHubCatalog`` (otherwise one is
@@ -239,18 +246,25 @@ def load(
     catalog = catalog or SentinelHubCatalog(config=config)
 
     # Pin the collection to the configured deployment (e.g. CDSE) so Catalog and
-    # Process API hit the same service. Idempotent for a stable name + url.
-    if config.sh_base_url:
-        data_collection = data_collection.define_from(
-            f"{data_collection.name}_{config.sh_base_url}", service_url=config.sh_base_url
+    # Process API hit the same service. We derive a definition and resolve it via
+    # ``DataCollection(...)`` rather than ``define_from``: the latter raises if an
+    # equally-defined collection already exists under a different name (``_name``
+    # is excluded from equality), which happens e.g. when the caller already ran
+    # ``define_from`` themselves. ``DataCollection(...)`` instead returns the
+    # existing member, or registers a new one if none matches.
+    if config.sh_base_url and data_collection.service_url != config.sh_base_url:
+        derived = data_collection.value.derive(
+            service_url=config.sh_base_url,
+            _name=f"{data_collection.name}_{config.sh_base_url}",
         )
+        data_collection = DataCollection(derived)
 
     band_objs = _resolve_bands(data_collection, bands)
     units, sample_type, dtype = _choose_units(band_objs)
     evalscript = _build_evalscript(bands, units, sample_type)
 
     width, height = _dimensions(bbox, resolution, size)
-    days = _query_timestamps(catalog, data_collection, bbox, time, max_cloud_cover)
+    days = _query_timestamps(catalog, data_collection, bbox, time, filter, filter_lang)
     if not days:
         raise ValueError("Catalog search returned no acquisitions for this query.")
 
